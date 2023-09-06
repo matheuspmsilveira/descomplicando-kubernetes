@@ -1,8 +1,8 @@
 # Descomplicando Kubernetes
-Bem-vindo ao repositório "Descomplicando Kubernetes"! Este repositório foi criado para acompanhar o meu progresso no curso de Kubernetes oferecido pela LinuxTips. Aqui, você encontrará recursos, códigos e anotações relacionados ao curso, à medida que eu mergulho no fascinante mundo do Kubernetes.
+Bem-vindo ao repositório "Descomplicando Kubernetes"! Este repositório foi criado para acompanhar o meu progresso no curso de Kubernetes oferecido pela [LinuxTips](https://www.linuxtips.io/). Aqui, você encontrará recursos, códigos e anotações relacionados ao curso, à medida que eu mergulho no fascinante mundo do Kubernetes.
 
 ### Sobre o Curso
-O curso "Descomplicando Kubernetes" da LinuxTips é um programa abrangente de aprendizado que visa fornecer uma compreensão sólida do Kubernetes, desde conceitos básicos até tópicos avançados. O curso é ministrado pelo [Jeferson Fernando](https://github.com/badtuxx) e é uma oportunidade incrível para aprofundar meus conhecimentos em orquestração de contêineres e gerenciamento de aplicativos em escala.
+O curso "Descomplicando Kubernetes" da [LinuxTips](https://www.linuxtips.io/) é um programa abrangente de aprendizado que visa fornecer uma compreensão sólida do Kubernetes, desde conceitos básicos até tópicos avançados. O curso é ministrado pelo [Jeferson Fernando](https://github.com/badtuxx) e é uma oportunidade incrível para aprofundar meus conhecimentos em orquestração de contêineres e gerenciamento de aplicativos em escala.
 
 ### Objetivo
 O objetivo principal deste repositório é documentar meu progresso e aprendizado durante o curso. Vou compartilhar códigos, scripts, notas e qualquer recurso relevante que possa ser útil para mim e para outros colegas que também estão estudando Kubernetes.
