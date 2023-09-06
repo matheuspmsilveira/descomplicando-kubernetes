@@ -1,4 +1,4 @@
-### Descomplicando Kubernetes
+# Descomplicando Kubernetes
 Bem-vindo ao repositório "Descomplicando Kubernetes"! Este repositório foi criado para acompanhar o meu progresso no curso de Kubernetes oferecido pela LinuxTips. Aqui, você encontrará recursos, códigos e anotações relacionados ao curso, à medida que eu mergulho no fascinante mundo do Kubernetes.
 
 ## Sobre o Curso
