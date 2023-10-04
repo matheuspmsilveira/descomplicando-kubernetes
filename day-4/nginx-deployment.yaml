@@ -9,7 +9,11 @@ spec:
   selector:
     matchLabels:
       app: nginx-deployment
-  strategy: {}
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 10%
+      maxUnavailable: 25%
   template:
     metadata:
       labels:
