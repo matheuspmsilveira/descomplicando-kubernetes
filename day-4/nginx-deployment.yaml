@@ -23,5 +23,33 @@ spec:
             cpu: "0.5"
             memory: 256Mi
           requests:
-            cpu: 0.25
+            cpu: "0.25"
             memory: 128Mi
+        livenessProbe:
+          # tcpSocket: # utiliza TCP para fazer health check
+          #   port: 80
+          httpGet: # utiliza metodo HTTP para fazer health check
+            path: /
+            port: 80
+          initialDelaySeconds: 10
+          periodSeconds: 10
+          timeoutSeconds: 5
+          failureThreshold: 3
+        readinessProbe:
+          # Pode usar o TCP e HTTP tambem
+          exec:
+            command:
+            - curl
+            - -f
+            - http://localhost:80/
+          initialDelaySeconds: 10
+          periodSeconds: 10
+          timeoutSeconds: 5
+          failureThreshold: 3
+          successThreshold: 1
+        startupProbe:
+          tcpSocket:
+            port: 80
+          initialDelaySeconds: 10
+          timeoutSeconds: 5
+          failureThreshold: 3
