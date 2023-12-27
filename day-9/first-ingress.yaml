@@ -4,13 +4,17 @@ metadata:
   name: giropops-senhas
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
-    nginx.ingress.kubernetes.io/ssl-redirect: "false"
+    cert-manager.io/cluster-issuer: letsencrypt-prod
   labels:
     name: giropops-senhas
 spec:
   ingressClassName: nginx
+  tls:
+  - hosts:
+    - giropops-senhas.matheussilveira.dev
+    secretName: giropops-senhas-tls
   rules:
-  - host: giropops.matheussilveira.dev
+  - host: giropops-senhas.matheussilveira.dev
     http:
       paths:
       - pathType: Prefix
